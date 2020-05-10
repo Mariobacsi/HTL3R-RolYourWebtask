@@ -1,0 +1,23 @@
+{
+    "name": "mariobacsi/htl3r-rol-your-webtask",
+    "description": "A HTL3R Project to enslave all students",
+    "type": "project",
+    "require": {
+        "doctrine/dbal": "^2.10",
+        "doctrine/orm": "^2.7"
+    },
+    "authors": [
+        {
+            "name": "Mario Seidl",
+            "email": "mario.s-@live.de"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/entities/"
+        }
+    }
+}
